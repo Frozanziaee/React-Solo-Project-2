@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+#root {
+    width: 100%;
+    max-width: 550px;
+    opacity: 0px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    padding: 1.8em;
+    margin-bottom: 1em;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 0.90375rem;
+    font-weight: 500;
+    letter-spacing: -7.5%;
+    line-height: 1.09375rem;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+
+main {
+    display: flex;
+    align-items: start;
+    gap: 1.5em;
+    padding: 1.5em 4em;
+    color: #2B283A;
+    font-size: 0.64rem;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.icon-location {
+    color: #F55A5A;
+    margin-right: 0.5em;
+}
+.main-location {
+    line-height: 12.39px;
+    letter-spacing: 17%;
+    text-transform: uppercase ;
+    margin-right: 1.5em;
+}
+
+a {
+    line-height: 12.39px;
+    color: #918E9B;
+}
+
+.top {
+    margin-top: .9em;
+}
+
+.main-title {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 30.26px;
+    margin-top: .3em;
+}
+
+.main-date {
+    font-weight: 700;
+    line-height: 12.39px;
+}
+
+.main-description {
+    line-height: 15.36px;
+}
